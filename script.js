@@ -28,7 +28,7 @@ function openSidebar(event) {
     // Display the updated total on the sidebar
     document.getElementById("totalDisplay").innerText = "Total: $" + runningTotal;
 
-    // Your existing code to open the sidebar
+    // Code to open the sidebar
     document.getElementById("sidebar").style.width = "180px";
     document.getElementById("main").style.marginRight = "250px";
 }
@@ -39,7 +39,7 @@ document.querySelectorAll('.card button').forEach(button => {
 });
 
 function closeSidebar() {
-    // Your existing code to close the sidebar
+    // Code to close the sidebar
     document.getElementById("sidebar").style.width = "0";
     // Adjust the following line if "main" is not an element in your HTML
     document.getElementById("main").style.marginRight = "0";
